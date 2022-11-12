@@ -16,21 +16,25 @@ toc: false
 {{< alert icon="💡" text="The name of AWK is derived from the surnames of its authors: Alfred Aho, Peter Weinberger, and Brian Kernighan." />}}
 
 #### Print Lines Containing tom, jerry AND vivek
+
 ```bash
 awk '/tom|jerry|vivek/' /etc/passwd
 ```
 
 #### Specify : as seperator
+
 ```bash
 awk -F: '{print $1}' /etc/passwd
 ```
 
 #### use of printf
+
 ```bash
 awk '{printf "%s ",$2}' file
 ```
 
 #### Command line on bash
+
 ```bash
 awk '
   BEGIN { actions } 
