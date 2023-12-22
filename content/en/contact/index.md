@@ -7,4 +7,4 @@ draft: false
 images: []
 ---
 
-{{< email user="MUsamaAnjum" domain="gmail.com" >}}
+MUsamaAnjum at gmail dot com
